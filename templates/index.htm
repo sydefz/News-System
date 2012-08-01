@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home | {$sm_config[0]}</title>
+<link rel="stylesheet" type="text/css" href="{$t_dir}style.css" />
+<!--[if IE 6]>
+	<script type="text/javascript" src="{$t_dir}unitpngfix.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="wrap">
+	<div class="header">
+    	<div class="logo"><a href="index.php"><img src="{$t_dir}images/logo.gif" alt="" title="" border="0" /></a></div>
+
+    </div>
+
+        <div id="menu">
+            <ul>
+            <li class="selected"><a href="index.php">home</a></li>
+
+            		{section name=l loop=$sm_class}
+		 		<li><a href="list.php?cid={$sm_class[l].id}">{$sm_class[l].name}</a></li>
+					{/section}
+            <li><a href="#touch1">get in touch</a></li>
+            </ul>
+        </div>
+
+    <div class="tab_bg">
+
+
+        <div class="tab_left">
+       <img src="{$t_dir}images/big_icon.png" alt="" title="" border="0" class="big_icon" />
+        </div>
+
+        <div class="middle_text">
+        <h1>Ideas have wings~</h1>
+        <p>
+Since two-year exposure to PHP & XHTML/CSS, finally I made this decision to build up such a website. I was holding my idea of build a simple demo, easy-going stuff like static HTML, but I found it was not worth to those nights of coding. About the quality, if I don't care, who will? Hopefully, step will change to steps.
+        </p>
+
+        </div>
+
+    	<div class="tabs">
+        	<div class="tab">
+            <img src="{$t_dir}images/icon1.png" alt="" title="" border="0" class="tab_icon" />
+            <p class="tab_text">
+            <a href="http://www.w3schools.com/php">Back end of website</a><br />
+            PHP support me from the back
+            </p>
+            </div>
+
+        	<div class="tab">
+            <img src="{$t_dir}images/icon2.png" alt="" title="" border="0" class="tab_icon" />
+            <p class="tab_text">
+            <a href="http://www.smarty.net">Face off and off </a><br />
+            Several smarty templates involved
+            </p>
+            </div>
+
+
+        	<div class="tab">
+            <img src="{$t_dir}images/icon3.png" alt="" title="" border="0" class="tab_icon" />
+            <p class="tab_text">
+            <a href="http://www.mysql.com">Contents below here</a><br />
+            Mysql db with dynamic data
+            </p>
+            </div>
+
+
+
+
+        </div>
+
+
+    <div class="clear"></div>
+    </div>
+
+    <div class="center_content">
+    	<div class="left_content">
+        	
+
+            <div class="title" id ="list_title">Latest News</div>
+
+			{section name=l loop=$sm_news}
+            	<div class="list_tab">
+                	<img src="{$t_dir}images/arrow.gif" alt="" title="" class="arrow" />
+                    <p class="list">
+                    {$sm_title[l].name} : {$sm_news[l].title} 
+                    </p>
+                    <div class="read_more" >
+                    	<a href="view.php?id={$sm_news[l].id}">Read more</a>
+                    	</div>
+                </div>
+				{/section}
+
+
+
+
+
+
+
+        </div>
+
+    	<div class="right_content">
+        	<div class="title">People said</div>
+
+            <div class="testimonials">
+            	<p>
+            		Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing.
+            	</p>
+            </div>
+            <div class="test_author">- Monica Li -</div>
+
+            <div class="testimonials">
+            	<p>
+            		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor incididunt.
+            	</p>
+            </div>
+            <div class="test_author">- Patrick Yu  -</div>
+
+
+            <div class="title" id="touch1">Get in touch</div>
+
+            <div class="info_box">
+            <img src="{$t_dir}images/phone_icon.gif" alt="" class="phone_icon" />
+
+            <p class="info">
+            <span class="red">PHONE:</span> &nbsp;&nbsp;{$sm_config[4]}<br />
+            <span class="red">Email:</span> <a href="mailto:{$sm_config[5]}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$sm_config[5]}</a><br />
+            <span class="red">Adress:</span> &nbsp;&nbsp;{$sm_config[6]}<br />
+            </p>
+
+            </div>
+
+        </div>
+
+        <div class="clear"></div>
+    </div>
+
+     <div id="footer">
+    	<div class="footer_links">
+            <a href>{$sm_config[3]}</a>
+
+        </div>
+
+  </div>
+</div>
+</body>
+</html>

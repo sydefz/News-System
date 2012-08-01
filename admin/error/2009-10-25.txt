@@ -1,0 +1,5 @@
+错误SQL语句：
+update `p_newsbase` set title='eeeeeeeeeeeeee  where id='1
+客户IP:127.0.0.1
+时间 :2009-10-25 10:21:37
+

@@ -1,0 +1,40 @@
+错误SQL语句：
+INSERT INTO `news_php100`.`p_newsclass` (`id`, `f_id`, `name`, `keywrod`, `remark`) VALUES (NULL, '0', 'TECH', '', '')
+客户IP:127.0.0.1
+时间 :2011-08-11 15:21:01
+
+错误SQL语句：
+INSERT INTO `news_php100`.`p_newsclass` (`id`, `f_id`, `name`, `keywrod`, `remark`) VALUES (NULL, '0', 'TECH', '', '')
+客户IP:127.0.0.1
+时间 :2011-08-11 15:21:09
+
+错误SQL语句：
+INSERT INTO `news_php100`.`p_newsclass` (`id`, `f_id`, `name`, `keywrod`, `remark`) VALUES (NULL, '0', 'dasdasd', '', '')
+客户IP:127.0.0.1
+时间 :2011-08-11 15:21:18
+
+错误SQL语句：
+INSERT INTO `news_php100`.`p_newsclass` (`id`, `f_id`, `name`, `keywrod`, `remark`) VALUES (NULL, '0', 'dsad', '', '')
+客户IP:127.0.0.1
+时间 :2011-08-11 15:21:23
+
+错误SQL语句：
+INSERT INTO `news_php100`.`p_newsclass` (`id`, `f_id`, `name`, `keywrod`, `remark`) VALUES (NULL, '1', 'sad', '', '')
+客户IP:127.0.0.1
+时间 :2011-08-11 15:25:22
+
+错误SQL语句：
+INSERT INTO `news_php100`.`p_newsclass` (`id`, `f_id`, `name`, `keywrod`, `remark`) VALUES (NULL, '0', 'dasd', '', '')
+客户IP:127.0.0.1
+时间 :2011-08-11 15:28:17
+
+错误SQL语句：
+INSERT INTO `news_php100`.`p_newsclass` (`id`, `f_id`, `name`, `keywrod`, `remark`) VALUES (NULL, '0', 'dasd', '', '')
+客户IP:127.0.0.1
+时间 :2011-08-11 15:28:21
+
+错误SQL语句：
+INSERT INTO `sydefz`.`p_newsclass` (`id`, `f_id`, `name`, `keywrod`, `remark`) VALUES (NULL, '0', 'dsada', '', '')
+客户IP:127.0.0.1
+时间 :2011-08-11 15:29:37
+
